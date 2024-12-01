@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+.topnav{
+    overflow: hidden;
+    background-color: turquoise;
+}
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: cyan;
+    color: green;
+}
+.topnav a.active{
+    background-color: darkcyan;
+    color: black;
+}
+
+.carouse1.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
