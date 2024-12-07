@@ -16,21 +16,46 @@
         <img class="mySlides" src="bird3.jpg" style="height: 500px;">
     </section>
 
+    <section>
+        <p>
+            <h1>What are birds?</h1>
+            Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers,
+            toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, 
+            and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5 cm bee hummingbird
+            to the 2.8 m common ostrich. There are over 11,000 living species and they are split into 44 orders. 
+            More than half are passerine or "perching" birds. Birds have wings whose development varies according to species;
+            the only known groups without wings are the extinct moa and elephant birds. Wings, which are modified forelimbs, 
+            gave birds the ability to fly, although further evolution has led to the loss of flight in some birds, including ratites,
+            penguins, and diverse endemic island species. The digestive and respiratory systems of birds are also uniquely adapted 
+            for flight. Some bird species of aquatic environments, particularly seabirds and some waterbirds, have further evolved 
+            for swimming. The study of birds is called ornithology.
+        </p>
+        <p>
+            We often think of birds as eating seeds and fruits — it’s what they come to our yards for after all — but many birds also rely on insects for a large part of their nutrition. It’s this part of their diet that does us a big favor in the form of free pest control. 
+        </p>
+        <p>
+            By eating insects, birds help keep the bug populations from becoming too large, so having them nearby is a good thing. All told, birds eat between 450 million tons and 550 million tons of insects each year, USA Today reports(Opens in a new window). While this helps us around our homes and neighborhoods, it’s also a boon to farmers as well, assisting to control agricultural pests. 
+        </p>
+        <p>
+            It’s not just insect-eating birds we owe a debt of gratitude to. Many raptors — owls, hawks, eagles and falcons — are at the top of the food chain and help keep the ecosystem in balance through their regular hunting activities, according to the Missouri Department of Conservation(Opens in a new window). Without them, our environment could become overpopulated with some of the creatures they frequently hunt, namely rodents and other small mammals.
+        </p>
+    </section>
+
     <script>
         var myIndex = 0;
-        carouse1();
+        carousel();
 
-        function carouse1(){
+        function carousel(){
             var i;
             var x = document.getElementsByClassName("mySlides");
             
-            for (i = 0; 1 < x.length; i++){
+            for (i = 0; i < x.length; i++){
                 x[i].style.display = "none";
             }
             myIndex++;
         if (myIndex > x.length) {myIndex = 1}
         x[myIndex-1].style.display = "block";
-        setTimeout(carouse1, 3000);
+        setTimeout(carousel, 3000);
         }
     </script>
     </body>
