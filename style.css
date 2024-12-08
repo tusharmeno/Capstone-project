@@ -1,27 +1,27 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
+    background-color: #343030;
 }
 .topnav{
     overflow: hidden;
-    background-color: turquoise;
+    background-color: #343030;
 }
 .topnav a{
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 .topnav a:hover {
-    background-color: cyan;
-    color: green;
+    background-color: gray;
+    color: whitesmoke;
 }
 .topnav a.active{
-    background-color: darkcyan;
-    color: black;
+    background-color: 201f1f;
+    color: white;
 }
 
 .carousel.container{
@@ -29,4 +29,14 @@ body{
     justify-content: center;
     align-items: center;
     height: 300px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
